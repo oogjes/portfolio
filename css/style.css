@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white
+}
+
+/* Krub font*/
+p {
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Suez One font*/
+h1 {
+    font-family: "Suez One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Header and footer color*/
+header,
+footer {
+    background-color: #CCD5AE;
+}
+
+/* Header*/
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a {
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+/* Home button in header*/
+.home-text {
+    padding-left: 100px;
+    font-size: 50px;
+    text-shadow: -5px 3px 0px#D4A373;
+
+    font-family: "Suez One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Other buttons in header*/
+.header-text {
+    font-size: 20px;
+    align-items: center;
+    padding-right: 100px;
+    gap: 20px;
+
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header hover for buttons*/
+nav ul li a:hover {
+    background-color: #b6be9d;
+    border-radius: 20px;
+}
+
+/* Main*/
+main {
+    background-color:#FEFAE0
+}
+
+.about-me-home {
+    height: 550px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+.about-me-text h1,
+.about-me-text p {
+    color: #D4A373;
+    font-size: 20px;
+}
+
+.about-me-text h1 {
+    font-size: 30px;
+}
+
+/* Footer */
+footer {
+    height: 475px;
+}
+
+/* Text in footer*/
+footer div{
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.footer-contact {
+    padding-top: 75px;
+}
