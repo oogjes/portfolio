@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    color: white
+    color: white;
 }
 
 /* Krub font*/
@@ -32,6 +32,7 @@ header {
     align-items: center;
 }
 
+/* Buttons in header*/
 nav {
     display: flex;
     width: 100%;
@@ -73,16 +74,17 @@ nav ul li a {
 }
 
 /* Header hover for buttons*/
-nav ul li a:hover {
+.header-text li a:hover {
     background-color: #b6be9d;
     border-radius: 20px;
 }
 
 /* Main*/
 main {
-    background-color:#FEFAE0
+    background-color: #FEFAE0
 }
 
+/* About me text in home section*/
 .about-me-home {
     height: 550px;
 
@@ -94,6 +96,7 @@ main {
     gap: 30px;
 }
 
+/* About me text in home*/
 .about-me-text {
     display: flex;
     flex-direction: column;
@@ -112,13 +115,117 @@ main {
     font-size: 30px;
 }
 
+/* Learn more text*/
+.learn-more a {
+    color: black;
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.learn-more a:hover {
+    text-decoration: underline;
+}
+
+/* Software developer section*/
+.software-developer {
+    height: 85px;
+    background-color: #E9EDC9;
+}
+
+/* Software developer text*/
+.software-developer,
+.software-developer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    font-size: 30px;
+}
+
+/* The images for the pages on home*/
+.pages {
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-img1,
+.text-img2,
+.text-img3 {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+/* Text beneath the images*/
+.pages-pics,
+.pages-pics p {
+    display: flex;
+    justify-content: center;
+    gap: 175px;
+
+    color: #D4A373;
+    font-size: 20px;
+}
+
+/* Hover for the 3 images*/
+.text-img1:hover img,
+.text-img2:hover img,
+.text-img3:hover img {
+    transform: translateY(-10px);
+}
+
+/* Personal info section*/
+.personal-info {
+    height: 650px;
+    background-color: #FFE5D9;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.personal-text {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+/* Personal info text */
+.personal-info h1,
+.personal-info p {
+    color: black;
+    font-size: 35px;
+}
+
+.personal-info p {
+    font-size: 25px;
+}
+
+/* Car image on home*/
+.img-home {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
 /* Footer */
 footer {
     height: 475px;
 }
 
 /* Text in footer*/
-footer div{
+footer div {
     font-size: 25px;
 
     display: flex;
@@ -132,3 +239,36 @@ footer div{
 .footer-contact {
     padding-top: 75px;
 }
+
+/* Main for all 3 other pages*/
+.main-pages {
+    background-color: #FEFAE0;
+    height: 625px;
+}
+
+/* About me page*/
+/* About text block*/
+.about-me-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    background-color: #FFE5D9;
+    width: 775px;
+    height: 425px;
+}
+
+/* About me text*/
+.about-me-text-block p,
+.about-me-text-block h1 {
+    color: black;
+    font-size: 12px;
+    width: 505px;
+}
+
+.about-me-text-block h1 {
+    font-size: 20px;
+}
+/* Projects page*/
+
+/*Experience page*/
