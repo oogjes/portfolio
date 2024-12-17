@@ -271,6 +271,56 @@ footer div {
 .about-me-text-block h1 {
     font-size: 20px;
 }
+
 /* Projects page*/
+/* Projects text block*/
+.projects-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    padding: 40px;
+
+    background-color: #FAEDCD;
+    width: 360px;
+    height: 400px;
+}
+
+/* projects text*/
+.projects-text-block p,
+.projects-text-block h1 {
+    color: black;
+    font-size: 12px;
+    width: 360px;
+}
+
+.projects-text-block h1 {
+    font-size: 20px;
+}
 
 /*Experience page*/
+/* Experience text block*/
+.experience-text-block {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+
+    padding: 40px;
+
+    background-color: #E9EDC9;
+    width: 860px;
+    height: 230px;
+}
+
+/* experience text*/
+.experience-text-block p,
+.experience-text-block h1 {
+    color: black;
+    font-size: 12px;
+    width: 250px;
+}
+
+.experience-text-block h1 {
+    font-size: 20px;
+    padding-bottom: 18px;
+}
