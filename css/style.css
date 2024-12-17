@@ -184,7 +184,7 @@ main {
 
 /* Personal info section*/
 .personal-info {
-    height: 650px;
+    height: 600px;
     background-color: #FFE5D9;
 
     display: flex;
@@ -230,7 +230,7 @@ footer div {
 
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 60px;
     align-items: center;
     text-align: center;
 
@@ -253,9 +253,11 @@ footer div {
     flex-direction: column;
     gap: 18px;
 
+    padding: 40px;
+
     background-color: #FFE5D9;
-    width: 775px;
-    height: 425px;
+    width: 700px;
+    height: 350px;
 }
 
 /* About me text*/
