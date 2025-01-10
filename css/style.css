@@ -84,8 +84,39 @@ main {
     background-color: #FEFAE0
 }
 
+/* The front page*/
+.front-page {
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    gap: 30px;
+}
+
+/* Text on the front page*/
+.front-page p {
+    color: #D4A373;
+    font-size: 50px;
+}
+
+.front-page h1 {
+    color: #D4A373;
+    font-size: 35px;
+}
+
+/* Arrow on front page*/
+.front-page h2 {
+    padding-top: 20px;
+    font-size: 90px;
+    color: #D4A373;
+}
+
 /* About me text in home section*/
 .about-me-home {
+    background-color: #FAEDCD;
     height: 550px;
 
     display: flex;
@@ -129,6 +160,11 @@ main {
 
 .learn-more a:hover {
     text-decoration: underline;
+}
+
+/* Section between about me and software developer*/
+.between-section {
+    height: 75px;
 }
 
 /* Software developer section*/
@@ -230,14 +266,28 @@ footer div {
 
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    align-items: center;
-    text-align: center;
+    gap: 40px;
+    padding-left: 50px;
 
 }
 
 .footer-contact {
     padding-top: 75px;
+}
+
+/* Social icons*/
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 0%;
+}
+
+.linkedin-icon:hover,
+.github-icon:hover {
+    background-color: #acb493;
+    border-radius: 40px;
+    transform: scale(1.2);
 }
 
 /* Main for all 3 other pages*/
