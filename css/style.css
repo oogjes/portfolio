@@ -272,7 +272,7 @@ footer div {
 }
 
 .footer-contact {
-    padding-top: 75px;
+    padding-top: 60px;
 }
 
 /* Social icons*/
@@ -288,6 +288,69 @@ footer div {
     background-color: #acb493;
     border-radius: 40px;
     transform: scale(1.2);
+}
+
+/* Turn footer in a row*/
+.footer-all {
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+
+    gap: 350px;
+}
+
+/* Contact*/
+.contact {
+    background-color: #bac39e;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #a2aa8a;
+    padding: 30px;
+
+    height: 330px;
+    width: 300px;
+}
+
+.contact h1 {
+    font-size: 30px;
+}
+
+ 
+.email-input{
+    width: 200px;
+    height: 70px;
+    border-radius: 7px;
+    background: #bac39e;
+    border: solid #a2aa8a;
+}
+ 
+.name-input{
+    width: 200px;
+    height: 70px;
+    border-radius: 7px;
+    background: #bac39e;
+    border: solid #a2aa8a;
+}
+ 
+.message-input{
+    width: 200px;
+    height: 170px;
+    border-radius: 7px;
+    background: #bac39e;
+    border: solid #a2aa8a;
+}
+ 
+.contact-send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 20px;
+    background: #a2aa8a;
+    border-radius: 12px;
+    padding: 5px;
+
+    font-size: 15px;
 }
 
 /* Main for all 3 other pages*/
