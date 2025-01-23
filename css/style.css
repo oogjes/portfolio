@@ -296,7 +296,7 @@ footer div {
     flex-direction: row;
     padding: 35px;
 
-    gap: 350px;
+    gap: 370px;
 }
 
 /* Contact*/
@@ -315,7 +315,7 @@ footer div {
     font-size: 30px;
 }
 
- 
+
 .email-input{
     width: 200px;
     height: 70px;
@@ -369,15 +369,15 @@ footer div {
     padding: 40px;
 
     background-color: #FFE5D9;
-    width: 700px;
-    height: 350px;
+    width: 360px;
+    height: 200px;
 }
 
 /* About me text*/
 .about-me-text-block p,
 .about-me-text-block h1 {
     color: black;
-    font-size: 12px;
+    font-size: 13px;
     width: 505px;
 }
 
@@ -395,20 +395,29 @@ footer div {
     padding: 40px;
 
     background-color: #FAEDCD;
-    width: 360px;
-    height: 400px;
+    width: 250px;
+    height: 275px;
 }
 
 /* projects text*/
 .projects-text-block p,
 .projects-text-block h1 {
     color: black;
-    font-size: 12px;
+    font-size: 14px;
     width: 360px;
 }
 
 .projects-text-block h1 {
     font-size: 20px;
+}
+
+.projects-text-block a {
+    color: #16047c;
+    text-decoration: none;
+}
+
+.projects-text-block a:hover {
+    text-decoration: underline;
 }
 
 /*Experience page*/
@@ -422,18 +431,23 @@ footer div {
 
     background-color: #E9EDC9;
     width: 860px;
-    height: 230px;
+    height: 180px;
 }
 
 /* experience text*/
 .experience-text-block p,
 .experience-text-block h1 {
     color: black;
-    font-size: 12px;
+    font-size: 13px;
     width: 250px;
 }
 
 .experience-text-block h1 {
     font-size: 20px;
     padding-bottom: 18px;
+}
+
+/* Image */
+.experience-img {
+    padding-left: 800px;
 }
