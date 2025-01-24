@@ -296,7 +296,7 @@ footer div {
     flex-direction: row;
     padding: 35px;
 
-    gap: 370px;
+    gap: 500px;
 }
 
 /* Contact*/
@@ -305,7 +305,7 @@ footer div {
     border-radius: 20px;
     border-style: solid;
     border-color: #a2aa8a;
-    padding: 30px;
+    padding: 35px;
 
     height: 330px;
     width: 300px;
@@ -316,31 +316,31 @@ footer div {
 }
 
 
-.email-input{
+.email-input {
     width: 200px;
     height: 70px;
     border-radius: 7px;
     background: #bac39e;
     border: solid #a2aa8a;
 }
- 
-.name-input{
+
+.name-input {
     width: 200px;
     height: 70px;
     border-radius: 7px;
     background: #bac39e;
     border: solid #a2aa8a;
 }
- 
-.message-input{
+
+.message-input {
     width: 200px;
     height: 170px;
     border-radius: 7px;
     background: #bac39e;
     border: solid #a2aa8a;
 }
- 
-.contact-send{
+
+.contact-send {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,15 +356,24 @@ footer div {
 /* Main for all 3 other pages*/
 .main-pages {
     background-color: #FEFAE0;
-    height: 625px;
+    height: 627px;
 }
 
 /* About me page*/
-/* About text block*/
-.about-me-text-block {
+/* About me text block*/
+.about-me-block {
+    display: flex;
+    justify-self: center;
+
+    height: fit-content;
+    width: fit-content;
+}
+
+.about-me-textt {
     display: flex;
     flex-direction: column;
     gap: 18px;
+    text-align: left;
 
     padding: 40px;
 
@@ -374,20 +383,50 @@ footer div {
 }
 
 /* About me text*/
-.about-me-text-block p,
-.about-me-text-block h1 {
+.about-me-textt p,
+.about-me-textt  h1 {
     color: black;
     font-size: 13px;
     width: 505px;
 }
 
-.about-me-text-block h1 {
+.about-me-textt h1 {
     font-size: 20px;
+    width: fit-content;
+}
+
+/* Images*/
+.img12 {
+    padding: 30px;
+    gap:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    height: fit-content;
+    width: fit-content;
+}
+
+.img34 {
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    height: fit-content;
+    width: fit-content;
 }
 
 /* Projects page*/
 /* Projects text block*/
 .projects-text-block {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+
+.projects-text {
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -395,34 +434,56 @@ footer div {
     padding: 40px;
 
     background-color: #FAEDCD;
-    width: 250px;
+    width: 200px;
     height: 275px;
 }
 
 /* projects text*/
-.projects-text-block p,
-.projects-text-block h1 {
+.projects-text p,
+.projects-text h1 {
     color: black;
     font-size: 14px;
-    width: 360px;
+    width: fit-content;
 }
 
-.projects-text-block h1 {
+.projects-text h1 {
     font-size: 20px;
 }
 
-.projects-text-block a {
+.projects-text a {
     color: #16047c;
     text-decoration: none;
 }
 
-.projects-text-block a:hover {
+.projects-text a:hover {
     text-decoration: underline;
+}
+
+/* Images position*/
+.img-java {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.img-web {
+    position: relative;
+    top: -65px;
+    left: -100px;
+
+    width: fit-content;
+    height: fit-content;
 }
 
 /*Experience page*/
 /* Experience text block*/
-.experience-text-block {
+.experience-block {
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.experience-text {
     display: flex;
     flex-direction: row;
     gap: 35px;
@@ -435,19 +496,24 @@ footer div {
 }
 
 /* experience text*/
-.experience-text-block p,
-.experience-text-block h1 {
+.experience-text p,
+.experience-text h1 {
     color: black;
     font-size: 13px;
     width: 250px;
 }
 
-.experience-text-block h1 {
+.experience-text h1 {
     font-size: 20px;
     padding-bottom: 18px;
 }
 
 /* Image */
 .experience-img {
-    padding-left: 800px;
+    width: fit-content;
+    height: fit-content;
+
+    position: relative;
+    top: -37px;
+    left: 765px;
 }
