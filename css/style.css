@@ -361,9 +361,18 @@ footer div {
 
 /* About me page*/
 /* About me text block*/
+.about-me-everything {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-top: 30px;
+}
+
 .about-me-block {
     display: flex;
     justify-self: center;
+    padding: 30px;
 
     height: fit-content;
     width: fit-content;
@@ -384,7 +393,7 @@ footer div {
 
 /* About me text*/
 .about-me-textt p,
-.about-me-textt  h1 {
+.about-me-textt h1 {
     color: black;
     font-size: 13px;
     width: 505px;
@@ -397,22 +406,20 @@ footer div {
 
 /* Images*/
 .img12 {
-    padding: 30px;
-    gap:30px;
+    gap: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    padding-right: 30px;
 
     height: fit-content;
     width: fit-content;
 }
 
 .img34 {
-    padding: 30px;
     gap: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    padding-top: 30px;
 
     height: fit-content;
     width: fit-content;
@@ -420,10 +427,17 @@ footer div {
 
 /* Projects page*/
 /* Projects text block*/
+.projects-everything {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    gap: 75px;
+}
+
 .projects-text-block {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 200px;
+    padding-top: 70px;
 }
 
 .projects-text {
@@ -462,13 +476,17 @@ footer div {
 /* Images position*/
 .img-java {
     position: relative;
+    top: 35px;
+    left: -200px;
+
+    position: relative;
     width: fit-content;
     height: fit-content;
 }
 
 .img-web {
     position: relative;
-    top: -65px;
+    top: -50px;
     left: -100px;
 
     width: fit-content;
